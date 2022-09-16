@@ -1,0 +1,182 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* beginning of main styling */
+html,
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px 0px;
+}
+
+/* Navbar................................................ */
+#nav-bar {
+  background: #333;
+  color: #fff;
+  overflow: auto;
+}
+#nav-bar a {
+  color: #fff;
+}
+#nav-bar h1 {
+  float: left;
+  padding-top: 20px;
+}
+#nav-bar ul li {
+  list-style-type: none;
+  float: right;
+}
+#nav-bar ul li a {
+  display: block;
+  padding: 20px;
+}
+
+#nav-bar ul li a:hover,
+#nav-bar ul li a.current {
+  background: rgb(203, 162, 12);
+  color: burlywood;
+}
+
+/* showcase......................... */
+#showcase {
+  background: url(../Images/hotel1.jpg) no-repeat center center/cover;
+  height: 500px;
+}
+#showcase .showcase-content {
+  text-align: center;
+  padding-top: 170px;
+  color: #fff;
+}
+#showcase .showcase-content h1 {
+  font-size: 60px;
+  line-height: 1.7em;
+}
+.text-primary {
+  color: tomato;
+}
+.lead {
+  font-size: 20px;
+}
+#showcase .showcase-content p {
+  padding-bottom: 20px;
+  line-height: 20px;
+}
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: #333;
+  background: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.btn:hover {
+  background: tomato;
+  color: aqua;
+}
+.btn-light {
+  background: #333;
+  color: #fff;
+  /* padding-top: 40px; */
+}
+
+/* Home info.......................................... */
+
+#home-info {
+  height: 400px;
+}
+#home-info .info-img {
+  float: left;
+  width: 50%;
+  background: url("../Images/hotel\ 3.jpg") no-repeat;
+  min-height: 100%;
+}
+#home-info .info-content {
+  float: right;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  padding: 50px 30px;
+}
+
+#home-info .info-content p {
+  padding-bottom: 30px;
+}
+
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
+.bg-primary {
+  background: tomato;
+}
+
+/* features section ..............*/
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+  /* margin-top: 20px; */
+}
+.box i {
+  margin-bottom: 10px;
+}
+
+/* ABout page beginning....................... */
+#about-info .info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+#about-info .info-right img {
+  display: block;
+  margin: auto;
+  width: 70%;
+}
+section {
+  /* background: #fff; */
+}
+#about-info .info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+  padding-left: 20px;
+}
+
+#main-footer {
+  text-align: center;
+  background: black;
+  color: #fff;
+  padding: 20px;
+  /* margin-top: 350px; */
+}
+#main-footer2 {
+  text-align: center;
+  background: black;
+  color: #fff;
+  padding: 20px;
+  margin-top: 350px;
+}
+.clr {
+  clear: both;
+}
